@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //even or odd
+        let num=prompt("enter a number");
+        let a=(num%2==0)?"even":"odd";
+        console.log("This number is an "+a);
+
+        //Grades
+        let marks=prompt("Enter your marks");
+        let grade=(marks>=90)? "A":
+        (marks>=75)? "B":
+        (marks>=60)?"c":
+        (marks>=45)?"D":"F";
+        console.log("Your Grade is "+ grade);
+        
+        //Wheater
+        var temp=prompt("enter the wheater");
+        var b=(temp<9)?"cold":
+              (temp<=19)? "cool":
+              (temp<30)? "warm": "hot";
+        console.log("The wheater is "+ b);
+
+        // Age
+        let age=prompt("Enter your age");
+        let ages=(age<=12)?"Child":
+                 (age<=19)? "Teen":
+                 (age<65)? "Adult": "Senior";
+        console.log("Your are  "+ages);
+
+    </script>
+</body>
+</html>
